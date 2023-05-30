@@ -2,7 +2,7 @@
 <h1 align="center">Máster Universitario en Desarrollo Ágil de Software para la Web</h1>
 <h3 align="center">Ionic - Trabajo Inicial</h3>
 <h5 align="center">
-    Aplicaciones Móviles (Híbridas) - Trabajo Inicial
+    Aplicaciones Móviles (Híbridas)
 </p>
 <h6 align="center">
     Universidad de Alcalá
@@ -36,9 +36,9 @@
 
 ## El proyecto
 
-![Trabajo Inicial](./documentation/)
+![Trabajo Inicial - Enunciado](./documentacion/practica_inicial_enunciado.pdf)
 
-Demo de la app. PlayStore [Google Play](https://): [TrabajoInicial](https://)
+La práctica inicial consiste en la implementación de la interfaz gráfica de una aplicación desarrollada con el framework Ionic y Vue.js, con el objetivo de que sea completamente responsiva. Para ello se utiliza toda la capacidad de Ionic al diseñar la capa de presentación desde un enfoque mobile-first, utilizando el componente ion-grid, el cual proporciona un sistema de rejillas en filas y columnas, además de breakpoints predefinidos que permiten adaptar el diseño a distintos tamaños de pantalla de forma sencilla.
 
 ### Stack
 
@@ -46,19 +46,20 @@ En esta sección se listan las tecnologías, frameworks, librerías y otras herr
 
 Tecnologías:
 
-* [](https://)
+* [HTML5](https://html5.org/), [CSS3](https://www.w3.org/TR/CSS/#css), [JavaScript ES6](https://262.ecma-international.org/6.0/)
 
 Frameworks:
 
-* [Ionic](https://)
+* [Ionic](https://ionicframework.com/docs/)
+* [Vue.js 3](https://vuejs.org/guide/introduction.html)
 
 Otros recursos:
 
 * [Android Studio](https://)
-* [VSCode](https://)
+* [VSCode](https://code.visualstudio.com/)
 * [Git](http://git-scm.com/)
 * [Github](https://github.com/)
-* [Markdown](https://)
+* [Markdown](https://www.markdownguide.org/)
 
 <!-- COMO EMPEZAR -->
 
@@ -74,8 +75,21 @@ Previamente, debemos tener instalado lo siguiente:
 
 ### Instalación
 
-1. Clonamos el repositorio desde VSCode con el cliente Git integrado [GitHub]([https://github.com/giodimagio/uah-aplicaciones-moviles-hibridas-trabajoInicial.git)
-2. 
+1. Clonamos el repositorio desde VSCode con el cliente Git integrado o desde un terminal Bash, vía HTTPS o SSH. [GitHub]([https://github.com/giodimagio/uah-aplicaciones-moviles-hibridas-trabajoInicial.git)
+
+	HTTPS
+   ```sh
+   git clone git@github.com:giodimagio/uah-aplicaciones-moviles-hibridas-trabajoInicial.git
+   ```
+ 	SSH
+   ```sh
+   git clone https://github.com/giodimagio/uah-aplicaciones-moviles-hibridas-trabajoInicial.git
+   ```
+2. Nos movemos a la carpeta del proyecto
+   ```sh
+   cd uah-aplicaciones-moviles-hibridas-trabajoInicial
+   ```
+3. Seguimos la secuencia de comandos del archivo ![commands.sh](./commands.sh)
 
 <!-- LICENCIAMIENTO -->
 
@@ -88,4 +102,3 @@ Distribuido bajo la licencia MIT
 ## Contacto
 
 Jorge Romero - [jorge.romeroc@edu.uah.es](mailto:jorge.romeroc@edu.uah.es)
-
