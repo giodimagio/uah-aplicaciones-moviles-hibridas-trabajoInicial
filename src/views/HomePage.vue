@@ -1,3 +1,5 @@
+<!-- Template: Page completa de Ionic donde se muestra de forma estructurada en header, content y footer la interfaz de la aplicación. -->
+
 <template>
   <ion-page>
     <ion-header :translucent="true">
@@ -48,12 +50,14 @@
   </ion-page>
 </template>
 
+<!-- Script: Elemento script (de tipo Composition API en Vue 3) que importa los componentes de Ionic necesarios y el componente Card -->
+
 <script setup lang="ts">
-import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
-import { IonFooter } from '@ionic/vue';
-import { IonGrid, IonCol, IonRow } from '@ionic/vue';
+import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonFooter, IonGrid, IonCol, IonRow } from '@ionic/vue';
 import CardComponent from '@/views/CardComponent.vue';
 </script>
+
+<!-- Style: Estilos CSS3 del Single-File Component que solo aplican a los titulos h1 y h3 de este componente -->
 
 <style scoped>
 h1,
